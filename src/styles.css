@@ -32,6 +32,9 @@ span {
   margin: 0;
 }
 
+a {
+  transition: color 0.4s;
+}
 a:link {
   color: var(--black);
 }

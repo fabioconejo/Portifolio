@@ -1,0 +1,44 @@
+.logo {
+  height: 100%;
+  width: 15%;
+  margin-left: 5%;
+  float: left;
+  font-family: var(--sec-font);
+  font-size: 100px;
+  line-height: 80px;
+  text-align: center;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.logo * {
+  font-family: inherit;
+}
+
+.navegacao {
+  height: 100%;
+  width: 60%;
+  float: left;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 100px;
+  text-align: center;
+}
+.navegacao a {
+  margin-left: 10%;
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+  font-style: none;
+  text-decoration: none;
+}
+.navegacao a:first-child {
+  margin-left: 0;
+}
+
+.social {
+}

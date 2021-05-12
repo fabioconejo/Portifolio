@@ -1,0 +1,40 @@
+/* Add application styles & imports to this file! */
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+@import url(//fonts.google.com/specimen/Fredoka+One);
+
+:root {
+  /* Cores */
+  --black: #2d3142;
+  --blue: #4f5d75;
+  --red: #cc444b;
+  --grey: #bfc0c0;
+
+  /* Fontes */
+  --main-font: 'Open Sans';
+  --sec-font: 'Fredoka One';
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: var(--main-font);
+  color: #2d3142;
+}
+
+html,
+body {
+  background-color: #fcfcfc;
+  min-width: 1280px;
+}
+
+span {
+  padding: 0;
+  margin: 0;
+}
+
+a:link {
+  color: var(--black);
+}
+a:hover {
+  color: var(--red);
+}

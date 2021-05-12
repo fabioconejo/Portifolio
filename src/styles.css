@@ -38,3 +38,7 @@ a:link {
 a:hover {
   color: var(--red);
 }
+
+.selected {
+  color: var(--red);
+}

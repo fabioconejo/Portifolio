@@ -1,6 +1,7 @@
 .apresentacao {
   height: 100%;
   width: 50%;
+  float: left;
 }
 
 .mensagem {
@@ -20,4 +21,12 @@
 }
 .mensagem {
   font-size: 18px;
+}
+
+.foto {
+  height: 100%;
+  width: 50%;
+  float: left;
+  background-image: url('../../assets/images/foto.png');
+  background-size: contain;
 }

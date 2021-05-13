@@ -1,11 +1,11 @@
 .logo {
   height: 100%;
-  width: 15%;
+  width: 10%;
+  margin-left: 5%;
   float: left;
   font-family: var(--sec-font);
   font-size: 100px;
   line-height: 80px;
-  text-align: center;
 
   -webkit-touch-callout: none;
   -webkit-user-select: none;

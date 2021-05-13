@@ -1,0 +1,24 @@
+.apresentacao {
+  height: 100%;
+  width: 40%;
+}
+
+.mensagem {
+  margin-top: 30%;
+  margin-left: 12.5%;
+}
+
+.saudacao {
+  font-size: 48px;
+  font-weight: 600;
+}
+.nome {
+  font-size: 96px;
+  font-weight: 800;
+}
+.cargo {
+  font-size: 48px;
+}
+.mensagem {
+  font-size: 18px;
+}

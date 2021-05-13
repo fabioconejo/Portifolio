@@ -1,7 +1,6 @@
 .logo {
   height: 100%;
   width: 15%;
-  margin-left: 5%;
   float: left;
   font-family: var(--sec-font);
   font-size: 100px;
@@ -21,7 +20,7 @@
 
 .navegacao {
   height: 100%;
-  width: 60%;
+  width: 65%;
   float: left;
   font-weight: bold;
   font-size: 18px;

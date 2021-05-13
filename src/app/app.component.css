@@ -1,4 +1,4 @@
-menu {
+.menu {
   width: 100%;
   height: 100px;
   background-color: #ffffff;
@@ -6,16 +6,10 @@ menu {
   box-shadow: -5px -5px 10px #bfc0c0;
 }
 
-inicio {
-  width: 100px;
-  height: 1000px;
-  background-color: red;
+.inicio {
+  width: 100%;
+  height: 800px;
 }
 
-sobre {
-  width: 100%;
-  height: 100px;
-  background-color: #ffffff;
-  margin: 0;
-  box-shadow: -5px -5px 10px #bfc0c0;
+.sobre {
 }

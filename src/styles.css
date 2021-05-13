@@ -45,3 +45,6 @@ a:hover {
 .selected {
   color: var(--red);
 }
+.sub-text {
+  color: var(--blue);
+}

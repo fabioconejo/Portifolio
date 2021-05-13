@@ -27,9 +27,8 @@ body {
   min-width: 1280px;
 }
 
-span {
-  padding: 0;
-  margin: 0;
+p {
+  line-height: 1.6;
 }
 
 a {

@@ -5,19 +5,18 @@
 
 .mensagem {
   margin-top: 20%;
-  margin-left: 10%;
+  margin-left: 20%;
+  line-height: 64px;
 }
 
 .saudacao {
-  font-size: 36px;
   font-weight: 600;
 }
 .nome {
-  font-size: 96px;
+  font-size: 64px;
   font-weight: 800;
 }
 .cargo {
-  font-size: 24px;
 }
 .mensagem {
   font-size: 18px;

@@ -3,7 +3,7 @@
   height: 100px;
   background-color: #ffffff;
   margin: 0;
-  box-shadow: -5px -5px 10px #bfc0c0;
+  box-shadow: -5px -5px 10px var(--grey);
 }
 
 .inicio {

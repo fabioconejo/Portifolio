@@ -1,15 +1,15 @@
 .apresentacao {
   height: 100%;
-  width: 40%;
+  width: 50%;
 }
 
 .mensagem {
-  margin-top: 30%;
-  margin-left: 12.5%;
+  margin-top: 20%;
+  margin-left: 10%;
 }
 
 .saudacao {
-  font-size: 48px;
+  font-size: 36px;
   font-weight: 600;
 }
 .nome {
@@ -17,7 +17,7 @@
   font-weight: 800;
 }
 .cargo {
-  font-size: 48px;
+  font-size: 24px;
 }
 .mensagem {
   font-size: 18px;

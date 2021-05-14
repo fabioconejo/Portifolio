@@ -23,6 +23,7 @@
   color: var(--black);
   animation-name: fadein;
   animation-duration: 0.7s;
+  animation-timing-function: ease-in-out;
 }
 
 html,
@@ -85,9 +86,10 @@ a:hover {
 @keyframes fadein {
   from {
     opacity: 0;
-    margin-top: -20px;
+    transform: translateY(-20px);
   }
   to {
     opacity: 1;
+    transform: translateY(0px);
   }
 }

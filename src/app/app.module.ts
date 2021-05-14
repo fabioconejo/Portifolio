@@ -6,10 +6,17 @@ import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { SobreComponent } from './sobre/sobre.component';
+import { SkillsComponent } from './skills/skills.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
-  declarations: [AppComponent, MenuComponent, InicioComponent, SobreComponent],
+  declarations: [
+    AppComponent,
+    MenuComponent,
+    InicioComponent,
+    SobreComponent,
+    SkillsComponent
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

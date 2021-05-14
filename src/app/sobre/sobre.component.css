@@ -35,6 +35,15 @@
   bottom: -1px;
   left: -1px;
 }
+.imagem img {
+  position: relative;
+  z-index: 2;
+  object-fit: cover;
+  width: 100%;
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
 
 .mensagem {
   height: 80%;

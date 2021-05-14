@@ -10,7 +10,7 @@
 }
 
 .inicio {
-  padding-top: 100px;
+  padding-top: 150px;
   width: 100%;
   height: 800px;
 }
@@ -18,6 +18,8 @@
 .sobre {
   width: 100%;
   height: 800px;
+  padding-top: 150px;
+  margin-top: -150px;
 }
 
 .skills {

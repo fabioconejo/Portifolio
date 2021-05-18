@@ -57,7 +57,7 @@ progress:before {
   vertical-align: 0;
   position: absolute;
   left: 0;
-  right: 1%;
+  right: 0;
   text-align: right;
   color: var(--black);
   font-weight: 700;

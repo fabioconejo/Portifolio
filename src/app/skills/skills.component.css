@@ -42,6 +42,13 @@ ul h3 {
   font-weight: 600;
 }
 
+li {
+  transition: all 0.3s;
+}
+li:hover {
+  transform: scale(1.02);
+}
+
 progress {
   border-radius: 1px;
   width: 100%;
@@ -58,7 +65,7 @@ progress:before {
   text-align: right;
   color: var(--black);
   font-weight: 700;
-  transition: color 0.3s;
+  transition: all 0.3s;
 }
 li:hover > progress:before,
 li:hover > * {

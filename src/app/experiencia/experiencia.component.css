@@ -27,7 +27,7 @@
   transition: transform 0.3s;
 }
 .card:hover {
-  transform: scale(1.1);
+  transform: scale(1.04);
 }
 .card img {
   display: block;

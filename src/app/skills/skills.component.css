@@ -18,21 +18,18 @@
   margin-left: 20%;
 }
 
-.lista-programacao,
-.lista-outros {
+ul {
   width: 45%;
   margin-left: 2.5%;
   margin-right: 2.5%;
   float: left;
 }
 
-.lista-programacao li,
-.lista-outros li {
+ul li {
   margin-top: 5%;
 }
 
-.lista-programacao h3,
-.lista-outros h3 {
+ul h3 {
   margin-top: 10%;
 }
 

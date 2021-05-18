@@ -1,16 +1,50 @@
-.slider {
-  width: 300px;
-  height: 300px;
-  display: flex;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
-}
-.slider > div {
-  scroll-snap-align: start;
-}
-.slide {
-  width: 300px;
-  flex-shrink: 0;
+.experiencia {
   height: 100%;
+  width: 100%;
+}
+
+.frase {
+  padding-top: 2.5%;
+}
+
+.frase,
+.titulo {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  height: 60%;
+  width: 20%;
+  float: left;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 5px var(--grey);
+  border-radius: 3px;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2.5%;
+  padding: 0.5%;
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.card img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  object-fit: contain;
+}
+.card h3 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+.card p {
+  text-align: center;
+}
+
+.cargo {
+  font-weight: 600;
 }

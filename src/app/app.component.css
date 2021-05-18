@@ -25,4 +25,27 @@
 .skills {
   width: 100%;
   height: 800px;
+  padding-top: 150px;
+  margin-top: -150px;
+}
+
+.experiencia {
+  width: 100%;
+  height: 800px;
+  padding-top: 150px;
+  margin-top: -150px;
+}
+
+.portifolio {
+  width: 100%;
+  height: 800px;
+  padding-top: 150px;
+  margin-top: -150px;
+}
+
+.contato {
+  width: 100%;
+  height: 800px;
+  padding-top: 150px;
+  margin-top: -150px;
 }

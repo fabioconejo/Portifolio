@@ -1,0 +1,87 @@
+.skills {
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 5px var(--grey);
+}
+
+.frase,
+.titulo {
+  display: flex;
+  justify-content: center;
+}
+
+.mensagem {
+  width: 60%;
+  height: 60%;
+  padding-top: 2.5%;
+  margin-left: 20%;
+}
+
+.lista-programacao,
+.lista-outros {
+  width: 45%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  float: left;
+}
+
+.lista-programacao li,
+.lista-outros li {
+  margin-top: 5%;
+}
+
+.lista-programacao h3,
+.lista-outros h3 {
+  margin-top: 10%;
+}
+
+.tema {
+  float: left;
+}
+
+.nivel {
+  float: right;
+  font-weight: 600;
+}
+
+progress {
+  border-radius: 1px;
+  width: 100%;
+  height: 22px;
+  -webkit-appearance: none;
+  appearance: none;
+  position: relative;
+}
+progress:before {
+  content: attr(data-label);
+  font-size: 0.9em;
+  vertical-align: 0;
+  position: absolute;
+  left: 82.5;
+  right: 0;
+  color: var(--white);
+  font-weight: 600;
+}
+progress::-webkit-progress-bar {
+  background-color: var(--grey);
+  border-radius: 1px;
+}
+progress::-webkit-progress-value {
+  background-color: var(--black);
+  border-radius: 1px;
+  transition: background-color 0.3s;
+}
+progress::-moz-progress-bar {
+  background-color: var(--black);
+  border-radius: 1px;
+  transition: background-color 0.3s;
+}
+li:hover > progress::-webkit-progress-value {
+  background-color: var(--red);
+  border-radius: 1px;
+}
+li:hover > progress::-moz-progress-bar {
+  background-color: var(--red);
+  border-radius: 1px;
+}

@@ -7,6 +7,9 @@ import { MenuComponent } from './menu/menu.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { SobreComponent } from './sobre/sobre.component';
 import { SkillsComponent } from './skills/skills.component';
+import { ExperienciaComponent } from './experiencia/experiencia.component';
+import { PortifolioComponent } from './portifolio/portifolio.component';
+import { ContatoComponent } from './contato/contato.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -15,7 +18,10 @@ import { SkillsComponent } from './skills/skills.component';
     MenuComponent,
     InicioComponent,
     SobreComponent,
-    SkillsComponent
+    SkillsComponent,
+    ExperienciaComponent,
+    PortifolioComponent,
+    ContatoComponent
   ],
   bootstrap: [AppComponent]
 })

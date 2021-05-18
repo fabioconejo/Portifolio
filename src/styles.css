@@ -77,11 +77,18 @@ a:hover {
   color: var(--red);
 }
 
+ul {
+  list-style-type: none;
+}
+
 .selected {
   color: var(--red);
 }
 .sub-text {
   color: var(--blue);
+}
+.invert {
+  color: var(--white);
 }
 
 @keyframes fadein {

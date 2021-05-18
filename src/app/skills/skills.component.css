@@ -48,23 +48,27 @@
 progress {
   border-radius: 1px;
   width: 100%;
-  height: 22px;
-  -webkit-appearance: none;
-  appearance: none;
+  height: 24px;
   position: relative;
 }
 progress:before {
-  content: attr(data-label);
-  font-size: 0.9em;
+  content: attr(value) '%';
+  font-size: 1em;
   vertical-align: 0;
   position: absolute;
-  left: 82.5;
-  right: 0;
-  color: var(--white);
-  font-weight: 600;
+  left: 0;
+  right: 1%;
+  text-align: right;
+  color: var(--black);
+  font-weight: 700;
+  transition: color 0.3s;
+}
+li:hover > progress:before,
+li:hover > * {
+  color: var(--red);
 }
 progress::-webkit-progress-bar {
-  background-color: var(--grey);
+  background-color: var(--white);
   border-radius: 1px;
 }
 progress::-webkit-progress-value {

@@ -1,11 +1,5 @@
 .logo {
-  height: 100%;
-  width: 10%;
-  margin-left: 5%;
-  float: left;
   font-family: var(--sec-font);
-  font-size: 100px;
-  line-height: 80px;
 
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -19,49 +13,47 @@
 }
 
 .navegacao {
-  height: 100%;
-  width: 65%;
-  float: left;
   font-weight: bold;
-  font-size: 18px;
-  line-height: 100px;
-  text-align: center;
 }
 .navegacao a {
-  margin-left: 10%;
-  line-height: 1.5;
-  display: inline-block;
-  vertical-align: middle;
-  font-style: none;
   text-decoration: none;
-}
-.navegacao a:first-child {
-  margin-left: 0;
 }
 
-.social {
-  height: 100%;
-  width: 15%;
-  margin-left: 5%;
-  font-size: 18px;
-  float: left;
-  line-height: 100px;
-  text-align: center;
-}
 .social a {
-  margin-left: 10%;
-  line-height: 1.5;
-  display: inline-block;
-  vertical-align: middle;
-  font-style: none;
   text-decoration: none;
-}
-.social a:first-child {
-  margin-left: 0;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .logo {
+    height: 100%;
+    width: 100%;
+    font-family: var(--sec-font);
+    font-size: 120px;
+    line-height: 100px;
+    text-align: center;
+  }
+
+  .navegacao {
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 50px;
+    text-align: center;
+  }
+  .navegacao a {
+    width: 33.3%;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+    font-style: none;
+    text-decoration: none;
+  }
+
+  .social {
+    visibility: hidden;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

@@ -18,13 +18,12 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .apresentacao {
-    height: 100%;
+    height: 50%;
     width: 100%;
   }
 
   .mensagem {
-    margin-top: 20%;
-    margin-left: 20%;
+    margin-left: 5%;
     line-height: 64px;
   }
 
@@ -47,9 +46,9 @@
   }
 
   .foto {
-    height: 100%;
-    width: 50%;
-    float: left;
+    margin-top: 10%;
+    height: 50%;
+    width: 100%;
     background-image: url('https://i.imgur.com/58MqI7Y.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -74,7 +73,7 @@
   .apresentacao {
     height: 100%;
     width: 50%;
-    float: left;
+    float: right;
   }
 
   .mensagem {
@@ -104,7 +103,7 @@
   .foto {
     height: 100%;
     width: 50%;
-    float: left;
+    float: right;
     background-image: url('https://i.imgur.com/58MqI7Y.png');
     background-size: contain;
     background-repeat: no-repeat;

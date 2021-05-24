@@ -29,26 +29,14 @@
     height: 100%;
     width: 100%;
     font-family: var(--sec-font);
-    font-size: 120px;
-    line-height: 100px;
+    font-size: 100px;
+    line-height: 90px;
     text-align: center;
+    margin-top: -2.5%;
   }
 
   .navegacao {
-    height: 100%;
-    width: 100%;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 48px;
-    text-align: center;
-  }
-  .navegacao a {
-    width: 33.3%;
-    line-height: 1.5;
-    display: inline-block;
-    vertical-align: middle;
-    font-style: none;
-    text-decoration: none;
+    visibility: hidden;
   }
 
   .social {

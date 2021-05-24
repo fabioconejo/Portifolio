@@ -1,61 +1,80 @@
-.logo {
-  height: 100%;
-  width: 10%;
-  margin-left: 5%;
-  float: left;
-  font-family: var(--sec-font);
-  font-size: 100px;
-  line-height: 80px;
-
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-.logo * {
-  font-family: inherit;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
 }
 
-.navegacao {
-  height: 100%;
-  width: 65%;
-  float: left;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 100px;
-  text-align: center;
-}
-.navegacao a {
-  margin-left: 10%;
-  line-height: 1.5;
-  display: inline-block;
-  vertical-align: middle;
-  font-style: none;
-  text-decoration: none;
-}
-.navegacao a:first-child {
-  margin-left: 0;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
 }
 
-.social {
-  height: 100%;
-  width: 15%;
-  margin-left: 5%;
-  font-size: 18px;
-  float: left;
-  line-height: 100px;
-  text-align: center;
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
 }
-.social a {
-  margin-left: 10%;
-  line-height: 1.5;
-  display: inline-block;
-  vertical-align: middle;
-  font-style: none;
-  text-decoration: none;
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
 }
-.social a:first-child {
-  margin-left: 0;
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .logo {
+    height: 100%;
+    width: 10%;
+    margin-left: 5%;
+    float: left;
+    font-family: var(--sec-font);
+    font-size: 100px;
+    line-height: 80px;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .logo * {
+    font-family: inherit;
+  }
+
+  .navegacao {
+    height: 100%;
+    width: 65%;
+    float: left;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 100px;
+    text-align: center;
+  }
+  .navegacao a {
+    margin-left: 10%;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+    font-style: none;
+    text-decoration: none;
+  }
+  .navegacao a:first-child {
+    margin-left: 0;
+  }
+
+  .social {
+    height: 100%;
+    width: 15%;
+    margin-left: 5%;
+    font-size: 18px;
+    float: left;
+    line-height: 100px;
+    text-align: center;
+  }
+  .social a {
+    margin-left: 10%;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+    font-style: none;
+    text-decoration: none;
+  }
+  .social a:first-child {
+    margin-left: 0;
+  }
 }

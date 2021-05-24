@@ -28,6 +28,7 @@
 
 html,
 body {
+  width: 100%;
   background-color: var(--white);
   scroll-behavior: smooth;
   z-index: -2;

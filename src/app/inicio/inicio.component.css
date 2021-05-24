@@ -46,13 +46,13 @@
   }
 
   .foto {
-    margin-top: 10%;
+    margin-top: 2.5%;
     height: 50%;
     width: 100%;
     background-image: url('https://i.imgur.com/58MqI7Y.png');
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: contain;
   }
 }
 

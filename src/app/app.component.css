@@ -81,6 +81,40 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .menu {
+    width: 100%;
+    height: 100px;
+  }
+
+  .inicio {
+    width: 100%;
+    overflow: auto;
+  }
+
+  .sobre {
+    width: 100%;
+    overflow: auto;
+  }
+
+  .skills {
+    width: 100%;
+    overflow: auto;
+  }
+
+  .experiencia {
+    width: 100%;
+    overflow: auto;
+  }
+
+  .portifolio {
+    width: 100%;
+    overflow: auto;
+  }
+
+  .contato {
+    width: 100%;
+    overflow: auto;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */

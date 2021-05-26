@@ -49,23 +49,120 @@
     margin-top: 2.5%;
     height: 400px;
     width: 100%;
-    background-image: url('https://i.imgur.com/58MqI7Y.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .apresentacao {
+    height: 50%;
+    width: 100%;
+  }
+
+  .mensagem {
+    margin-left: 5%;
+    line-height: 64px;
+  }
+
+  .saudacao {
+    font-weight: 600;
+  }
+  .nome {
+    font-weight: 800;
+  }
+  .cargo {
+    font-weight: 600;
+  }
+  .mensagem {
+    font-size: 18px;
+  }
+
+  .contato {
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+
+  .foto {
+    margin-top: 2.5%;
+    height: 550px;
+    width: 100%;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .apresentacao {
+    height: 50%;
+    width: 100%;
+  }
+
+  .mensagem {
+    margin-left: 5%;
+    line-height: 64px;
+  }
+
+  .saudacao {
+    font-weight: 600;
+  }
+  .nome {
+    font-weight: 800;
+  }
+  .cargo {
+    font-weight: 600;
+  }
+  .mensagem {
+    font-size: 18px;
+  }
+
+  .contato {
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+
+  .foto {
+    margin-top: 2.5%;
+    height: 600px;
+    width: 100%;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .apresentacao {
+    height: 100%;
+    width: 50%;
+    float: right;
+  }
+
+  .mensagem {
+    margin-top: 20%;
+    margin-left: 20%;
+    line-height: 64px;
+  }
+
+  .saudacao {
+    font-weight: 600;
+  }
+  .nome {
+    font-weight: 800;
+  }
+  .cargo {
+    font-weight: 600;
+  }
+  .mensagem {
+    font-size: 18px;
+  }
+
+  .contato {
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+
+  .foto {
+    height: 100%;
+    width: 50%;
+    float: right;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -104,9 +201,5 @@
     height: 100%;
     width: 50%;
     float: right;
-    background-image: url('https://i.imgur.com/58MqI7Y.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
   }
 }

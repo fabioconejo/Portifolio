@@ -108,15 +108,159 @@ li:hover > progress::-moz-progress-bar {
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .skills {
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+    overflow: auto;
+  }
+
+  .frase,
+  .titulo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mensagem {
+    width: 90%;
+    height: 60%;
+    padding-top: 2.5%;
+    margin-left: 5%;
+  }
+
+  ul {
+    width: 100%;
+    float: left;
+  }
+
+  ul li {
+    margin-top: 5%;
+  }
+
+  ul h3 {
+    margin-top: 10%;
+  }
+
+  .tema {
+    float: left;
+  }
+
+  .nivel {
+    float: right;
+  }
+
+  progress {
+    width: 100%;
+    height: 24px;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .skills {
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+    overflow: auto;
+  }
+
+  .frase,
+  .titulo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mensagem {
+    width: 90%;
+    height: 60%;
+    padding-top: 2.5%;
+    margin-left: 5%;
+  }
+
+  ul {
+    width: 100%;
+    float: left;
+  }
+
+  ul li {
+    margin-top: 5%;
+  }
+
+  ul h3 {
+    margin-top: 10%;
+  }
+
+  .tema {
+    float: left;
+  }
+
+  .nivel {
+    float: right;
+  }
+
+  progress {
+    width: 100%;
+    height: 24px;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .skills {
+    height: 100%;
+    width: 100%;
+  }
+
+  .frase,
+  .titulo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mensagem {
+    width: 80%;
+    height: 60%;
+    padding-top: 2.5%;
+    margin-left: 10%;
+  }
+
+  ul {
+    width: 45%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    float: left;
+  }
+
+  ul li {
+    margin-top: 5%;
+  }
+
+  ul h3 {
+    margin-top: 10%;
+  }
+
+  .tema {
+    float: left;
+  }
+
+  .nivel {
+    float: right;
+  }
+
+  li {
+    transition: all 0.3s;
+  }
+  li:hover {
+    transform: scale(1.02);
+  }
+
+  progress {
+    width: 100%;
+    height: 24px;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -124,8 +268,6 @@ li:hover > progress::-moz-progress-bar {
   .skills {
     height: 100%;
     width: 100%;
-    background-color: #ffffff;
-    box-shadow: 0px 0px 5px var(--grey);
   }
 
   .frase,
@@ -162,7 +304,6 @@ li:hover > progress::-moz-progress-bar {
 
   .nivel {
     float: right;
-    font-weight: 600;
   }
 
   li {
@@ -173,47 +314,7 @@ li:hover > progress::-moz-progress-bar {
   }
 
   progress {
-    border-radius: 1px;
     width: 100%;
     height: 24px;
-    position: relative;
-  }
-  progress:before {
-    content: attr(value) '%';
-    font-size: 1em;
-    vertical-align: 0;
-    position: absolute;
-    left: 0;
-    right: 0;
-    text-align: right;
-    color: var(--black);
-    font-weight: 700;
-    transition: all 0.3s;
-  }
-  li:hover > progress:before,
-  li:hover > * {
-    color: var(--red);
-  }
-  progress::-webkit-progress-bar {
-    background-color: var(--white);
-    border-radius: 1px;
-  }
-  progress::-webkit-progress-value {
-    background-color: var(--black);
-    border-radius: 1px;
-    transition: background-color 0.3s;
-  }
-  progress::-moz-progress-bar {
-    background-color: var(--black);
-    border-radius: 1px;
-    transition: background-color 0.3s;
-  }
-  li:hover > progress::-webkit-progress-value {
-    background-color: var(--red);
-    border-radius: 1px;
-  }
-  li:hover > progress::-moz-progress-bar {
-    background-color: var(--red);
-    border-radius: 1px;
   }
 }

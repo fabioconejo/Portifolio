@@ -56,22 +56,141 @@
   .card p {
     text-align: center;
   }
-
-  .cargo {
-    font-weight: 600;
-  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .experiencia {
+    overflow: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+  }
+
+  .frase {
+    padding-top: 2.5%;
+  }
+
+  .frase,
+  .titulo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card {
+    overflow: auto;
+    width: 80%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 10%;
+    padding: 0.5%;
+    padding-bottom: 2.5%;
+  }
+  .card img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    object-fit: contain;
+  }
+  .card h3 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+  .card p {
+    text-align: center;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .experiencia {
+    overflow: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+  }
+
+  .frase {
+    padding-top: 2.5%;
+  }
+
+  .frase,
+  .titulo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card {
+    height: 400px;
+    width: 45%;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2.5%;
+    padding: 0.5%;
+  }
+  .card img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    object-fit: contain;
+  }
+  .card h3 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+  .card p {
+    text-align: center;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .experiencia {
+    height: 100%;
+    width: 100%;
+  }
+
+  .frase {
+    padding-top: 2.5%;
+  }
+
+  .frase,
+  .titulo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card {
+    height: 60%;
+    width: 45%;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2.5%;
+    padding: 0.5%;
+  }
+  .card img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    object-fit: contain;
+  }
+  .card h3 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+  .card p {
+    text-align: center;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -95,17 +214,10 @@
     height: 60%;
     width: 20%;
     float: left;
-    background-color: #ffffff;
-    box-shadow: 0px 0px 5px var(--grey);
-    border-radius: 3px;
     margin-left: 2%;
     margin-right: 2%;
     margin-top: 2.5%;
     padding: 0.5%;
-    transition: transform 0.3s;
-  }
-  .card:hover {
-    transform: scale(1.04);
   }
   .card img {
     display: block;
@@ -121,9 +233,5 @@
   }
   .card p {
     text-align: center;
-  }
-
-  .cargo {
-    font-weight: 600;
   }
 }

@@ -3,6 +3,16 @@
   box-shadow: -5px -5px 10px var(--grey);
 }
 
+.menu,
+.inicio,
+.sobre,
+.skills,
+.experiencia,
+.portifolio,
+.contato {
+  float: left;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .menu {

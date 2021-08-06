@@ -5,13 +5,16 @@
 
 .imagem {
   background-image: url('https://raw.githubusercontent.com/fabioconejo/Portifolio/master/src/assets/images/taskforce-print.png');
-
-  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: left;
 }
 
 .texto,
 .titulo {
   color: var(--white);
+  float: left;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -94,15 +97,20 @@
 
   .mensagem {
     height: 100%;
-    width: 90%;
+    width: 30%;
     margin-left: 5%;
     margin-top: 5%;
     float: left;
-    margin-bottom: 5%;
   }
 
   .titulo {
     margin-bottom: 5%;
+  }
+
+  .imagem {
+    height: 100%;
+    width: 60%;
+    margin-left: 2.5%;
   }
 }
 
@@ -115,7 +123,7 @@
 
   .mensagem {
     height: 80%;
-    width: 50%;
+    width: 30%;
     margin-left: 5%;
     margin-top: 5%;
     float: left;
@@ -123,5 +131,11 @@
 
   .titulo {
     margin-bottom: 5%;
+  }
+
+  .imagem {
+    height: 100%;
+    width: 60%;
+    margin-left: 2.5%;
   }
 }

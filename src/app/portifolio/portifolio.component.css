@@ -35,6 +35,14 @@
     margin-bottom: 5%;
   }
 
+  .imagem {
+    height: 50vw;
+    width: 90%;
+    margin-left: 5%;
+    float: left;
+    margin-bottom: 5%;
+  }
+
   .titulo {
     margin-bottom: 5%;
   }
@@ -58,6 +66,14 @@
     margin-bottom: 5%;
   }
 
+  .imagem {
+    height: 50vw;
+    width: 90%;
+    margin-left: 5%;
+    float: left;
+    margin-bottom: 5%;
+  }
+
   .titulo {
     margin-bottom: 5%;
   }
@@ -73,10 +89,18 @@
   }
 
   .mensagem {
-    height: 100%;
+    height: 50%;
     width: 90%;
     margin-left: 5%;
     margin-top: 5%;
+    float: left;
+    margin-bottom: 5%;
+  }
+
+  .imagem {
+    height: 50vw;
+    width: 90%;
+    margin-left: 5%;
     float: left;
     margin-bottom: 5%;
   }
@@ -90,14 +114,12 @@
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .portifolio {
     width: 100%;
-    overflow: auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    height: 100%;
   }
 
   .mensagem {
-    height: 100%;
-    width: 30%;
+    height: 42.5%;
+    width: 90%;
     margin-left: 5%;
     margin-top: 5%;
     float: left;
@@ -108,9 +130,11 @@
   }
 
   .imagem {
-    height: 100%;
-    width: 60%;
-    margin-left: 2.5%;
+    height: 47.5%;
+    width: 90%;
+    margin-left: 5%;
+    float: left;
+    margin-bottom: 5%;
   }
 }
 

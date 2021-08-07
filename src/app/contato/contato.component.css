@@ -11,6 +11,10 @@ li {
   word-wrap: break-word;
 }
 
+.texto {
+  width: 95%;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .contato {
@@ -124,6 +128,7 @@ li {
   .contato {
     width: 80%;
     overflow: auto;
+    margin-top: 10%;
     margin-left: 10%;
   }
 
@@ -186,5 +191,7 @@ li {
     vertical-align: center;
     float: left;
     text-align: center;
+    
+    
   }
 }
